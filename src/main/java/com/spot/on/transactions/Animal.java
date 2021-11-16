@@ -13,7 +13,6 @@ public class Animal {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	// TODO explain
 	private Long id;
 
 	private String name;
